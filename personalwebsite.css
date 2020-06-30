@@ -1,0 +1,119 @@
+body
+{
+    background-color: darkolivegreen;
+    font-family: Georgia;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+ul.navbar
+{
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.navbar a
+{
+    text-decoration: none;
+}
+ul.navbar li
+{
+    margin: 5px;
+    background-color: wheat;
+    padding: 5px 10px;
+    border-right: 10px solid black;
+}
+
+a:link
+{
+    color: blue;
+}
+a:visited
+{
+    color: deeppink;
+}
+
+ul.navbar li:hover
+{
+    background-color: aqua;
+    border-right-color: chartreuse;
+}
+
+address
+{
+    border-top: thin dotted black;
+    padding: 10px;
+}
+.heading1
+{
+   margin: 50px;
+    color: ButtonShadow;
+}
+
+#homeparagraph
+{
+
+    margin: 50px;
+}
+
+.tableclass img
+{
+    width: 500px;
+    height: 400px;
+}
+.orderlist
+{
+    padding: 10px;
+    font-size: 16px;
+}
+.orderlist a
+{
+    margin: 10px;
+    color: blue;
+}
+.orderlist a:hover
+{
+    color: aqua;
+}
+.orderlist sub
+{
+    color: lime;
+    margin: 10px;
+}
+
+.container
+{
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+input[type=submit]
+{
+    background-color: lightgreen;
+    border-right: 3px black;
+    padding: 3px;
+    margin: 3px;
+}
+
+input[type=submit]:hover
+{
+    background-color: darkgreen;
+}
+
+input[type=text],select,textarea
+{
+    width: 100%;
+    border: 2px darkslateblue;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+
